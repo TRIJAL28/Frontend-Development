@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aukat ke bahar wala try</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<style> * {
+     margin: 0px;
+     padding: 0px;
+ }
+
+ body {
+      
+     background-color: rgb(145, 118, 243);
+     /* border: 2px solid black; */
+     /* background-color: red; */
+
+ }
+
+ header {
+     position: sticky;
+     top: 0;
+ }
+
+ nav {
+     background-color: rgb(129, 223, 255);
+     border: 2px solid black;
+     height: 10vh;
+ }
+
+ ul>h1 {
+     color: blue;
+     margin: 2px;
+     padding: 10px;
+ }
+
+ li {
+     color: black;
+     padding: 25px;
+     margin: 2px;
+     margin-right: 10px;
+     list-style: none;
+ }
+
+ ul {
+     display: flex;
+ }
+
+ .tagline {
+     color: white;
+     padding: 50px;
+     margin: 20px;
+     text-decoration: underline;
+     line-height:10px;
+ }
+
+ h4 {
+     text-align: center;
+     padding: 30px;
+
+ }
+
+ .name>h1 {
+     text-align: center;
+     position: justify;
+     padding: 0px;
+ }
+
+ .txt {
+     color: white;
+     padding: 0px;
+     margin-left: 0px;
+     margin-bottom: 320px;
+     text-align: center;
+ }
+
+ .container {
+     background-color: rgb(216, 191, 249);
+     margin-bottom: -5px;
+ }
+
+ 
+ .About>h1 {
+     margin-top: 0px;
+     color:purple;
+     padding: 15px;
+     text-align: center;
+ }
+
+ .About>h4 {
+     color: purple;
+     padding: 2px;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     text-align: center;
+ }
+
+ .About>h2 {
+     color: purple;
+     text-align: left;
+     margin-left: 30px;
+ }
+
+ .About>p {
+     color: rgb(17, 50, 59);
+     text-align: center;
+     margin-right: 0px;
+     margin-left: 30px;
+     margin-top: 20px;
+ }
+
+ .About>h3 {
+     margin-top: 20px;
+     margin-left: 20px;
+     color: brown;
+ }
+
+ .About>ol>li {
+     margin-left: 20px;
+     padding: 10px;
+     color: rgb(96, 65, 106);
+ }
+
+ table {
+     border: 2px solid black;
+     width: 50%;
+     margin-left: 30px;
+ }
+
+ th {
+     border: 1px solid black;
+     padding: 8px;
+
+ }
+
+ td {
+     border: 1px solid black;
+     padding: 4px;
+
+ }
+
+ .image1 {
+     margin-top: 40px;
+     margin-left: 470px;
+     margin-bottom: 0px;
+ }
+
+ .container2 {
+
+     background-color: rgb(127, 127, 181);
+     padding-bottom: 30px;
+ }
+
+ .project>h1 {
+     color: aliceblue;
+     text-align: center;
+     margin-top: 0px;
+     margin-bottom: 0px;
+ }
+
+ .project>h3 {
+     color: aliceblue;
+     margin-top: 20px;
+     text-align: center;
+ }
+
+ .box1 {
+     /* display: flex; */
+     border: 2px solid rgb(255, 255, 255);
+     height: 30vh;
+     width: 30vh;
+     margin-top: 40px;
+     margin-left: 100px;
+     border-radius: 7px;
+     color: rgb(0, 3, 2);
+ }
+
+ .box1:hover{
+    transform: translateY(20px);
+ }
+
+ .box1>h3 {
+     margin-left: 5px;
+     color: antiquewhite;
+ }
+
+ .box1>p {
+     color: white;
+     margin-left: 5px;
+ }
+
+ .box2 {
+     /* display: flex; */
+     border: 2px solid rgb(255, 255, 255);
+     height: 30vh;
+     width: 30vh;
+     border-radius: 7px;
+     color: rgb(0, 3, 2);
+     margin-top: -205px;
+     margin-left: 400px;
+     border-radius: 7px;
+ }
+
+ .box2>h3 {
+     margin-left: 5px;
+     color: antiquewhite;
+ }
+
+ .box2>p {
+     color: white;
+     margin-left: 5px;
+ }
+
+ .box3 {
+     /* display: flex; */
+     border: 2px solid rgb(255, 255, 255);
+     height: 30vh;
+     width: 30vh;
+     border-radius: 7px;
+     color: rgb(0, 3, 2);
+     margin-top: -205px;
+     margin-left: 700px;
+     border-radius: 7px;
+ }
+
+ .box3>h3 {
+     margin-left: 5px;
+     color: antiquewhite;
+ }
+
+ .box3>p {
+     color: white;
+     margin-left: 5px;
+ }
+
+ .box4 {
+     /* display: flex; */
+     border: 2px solid rgb(255, 255, 255);
+     height: 30vh;
+     width: 30vh;
+     border-radius: 7px;
+     color: rgb(0, 3, 2);
+     margin-top: -200px;
+     margin-left: 1000px;
+     margin-bottom: 5px;
+     border-radius: 7px;
+ }
+
+ .box4>h3 {
+     margin-left: 5px;
+     color: antiquewhite;
+ }
+
+ .box4>p {
+     color: white;
+     margin-left: 5px;
+ }
+
+ .container3 {
+     margin-top: -5px;
+     background-color: rgb(121, 121, 204);
+ 
+    }
+
+ .contact>h1 {
+     color: aqua;
+     margin-top: 0px;
+     text-align: center;
+ }
+
+ .contact>h3 {
+     margin-top: 20px;
+     text-align: center;
+     color: antiquewhite;
+ }
+
+ .contact>h2 {
+     margin-top: 20px;
+     margin-left: 20px;
+     text-align: left;
+     color: rgb(197, 216, 234);
+ }
+
+ .contact>p {
+     text-align: left;
+     margin-left: 20px;
+     margin-top: 20px;
+     color: aliceblue;
+ }
+
+ .contact>ol {
+     color: antiquewhite;
+     margin-top: 30px;
+     margin-left: 20px;
+ }
+
+ footer {
+     margin-left: 20px;
+     margin-top: 15px;
+     color: antiquewhite;
+ }</style>
+<body>
+    <!-- <header>
+        <nav>
+            <ul>
+                <h1>Trijal Rand</h1>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact </li>
+                <li>Log In</li>
+            </ul>
+        </nav>
+    </header> -->
+    <main>
+        <div class="tagline">
+            <h4>WELCOME TO MY PROFILE</h4>
+            <div class="name">
+                <h1>TRIJAL SRIVASTAV</h1>
+            </div>
+            <div class="image1">
+                <img width="200" src="huihui.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="txt">
+            Creative Full Stack developer & UI-UX Designer crafting digital experiences that inspire and engage.
+        </div>
+        <div class="container">
+            <div class="About">
+                <h1>About Me!</h1>
+                <h4>Passionate about creating meaningful experience.</h4>
+
+                <h2>Hello! I'm Trijal Srivastav.</h2>
+                <table>
+                    <tr>
+                        <th>year</th>
+                        <th>Degree</th>
+                        <th>Institute</th>
+                    </tr>
+                    <tr>
+                        <td>2024-2028</td>
+                        <td>B.Tech</td>
+                        <td>GLA University,Mathura</td>
+                    </tr>
+                </table>
+                <p>I am a passionate Full-Stack Developer with a keen eye for **UI/UX Design**. My journey in the
+                    digital realm is driven by a desire to craft seamless, intuitive, and visually appealing
+                    experiences. I thrive on bringing ideas to life, from the initial concept and design to the
+                    robust
+                    back-end architecture.
+
+                    With a strong foundation in both front-end and back-end technologies, I enjoy the entire
+                    development
+                    process. I believe that great design and solid engineering go hand-in-hand to create truly
+                    impactful
+                    solutions. I'm constantly learning and exploring new tools and techniques to stay at the
+                    forefront
+                    of innovation.
+
+                    When I'm not coding, you can find me exploring new design trends, contributing to open-source
+                    projects, or simply enjoying a good book. I'm always excited to collaborate on challenging
+                    projects
+                    and turn complex problems into elegant solutions.</p>
+                <h3>🔹Skills:</h3>
+                <ol>
+                    <li>Problem Solving<progress value="80" max="100"></progress></li>
+                    <li>programming:Java,C<progress value="60" max="100"></progress></li>
+                    <li>WEB DEVELOPMENT:HTML,CSS,JS<progress value="70" max="100"></progress></li>
+                    <li>Management<progress value="97" max="100"></progress> </li>
+                    <li>Communication&Presentation<progress value="92" max="100"></progress> </li>
+                </ol>
+                <h3>🔹Hobbies:</h3>
+                <ol>
+                    <li>Watching Movies</li>
+                    <li>Spamming</li>
+                    <li>Playing Badminton</li>
+                    <li>photography</li>
+                </ol>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="project">
+                <h1>Featured Projects</h1>
+                <h3>A showcase of my recent work spanning web development,mobile apps,and design system.</h3>
+                <div class="box1">
+                    <h3>PROJECT 1:</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum modi impedit laudantium,
+                        distinctio autem commodi maiores mollitia quam maxime dicta suscipit? Nisi sequi eaque,
+                        repudiandae reprehenderit explicabo voluptatibus quod quasi?</p>
+                </div>
+                <div class="box2">
+                    <h3>PROJECT 2:</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam quam quia voluptatibus dolore vel
+                        excepturi repellat explicabo voluptatem, sint praesentium. Nobis quis vel quasi quam tenetur, et
+                        hic quae omnis.</p>
+                </div>
+                <div class="box3">
+                    <h3>PROJECT 3:</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt molestias accusantium praesentium!
+                        Facilis quae ratione impedit quia, amet aperiam quo unde modi excepturi accusantium alias beatae
+                        necessitatibus?</p>
+                </div>
+                <div class="box4">
+                    <h3>PROJECT 4:</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci pariatur hic ullam itaque ab
+                        beatae doloribus odit commodi possimus facilis expedita est, id nesciunt quisquam explicabo
+                        illum. Doloribus, natus.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container3">
+            <div class="contact">
+                <h1>Get In Touch!</h1>
+                <h3>Have a project in mind or just want to say hello?Feel free to reach
+                    out!
+                </h3>
+                <h2>Let's Connect</h2>
+                <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your
+                    vision. Whether you have a question or just want to chat, my inbox is always open.</p>
+                <ol>
+                    <p>E-Mail:trijalsrivastav@gmail.com</p>
+                    <p>LINKED IN:<a target="_blank"
+                            href="https://www.linkedin.com/in/trijal-srivastav-987659332/">LinkedIn</a></p>
+                    <p>Phone:9569779866</p>
+                    <p>Mathura,Uttar Pradesh.</p>
+                </ol>
+                <footer>
+                    &copy; 2025 Trijal Srivastav ♡.
+                </footer>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
